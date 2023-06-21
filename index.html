@@ -41,11 +41,23 @@
 	 		transform: translate(-100%,0);
 	 	}
 	 }
+	 .jon{
+		width: 0;
+		font-size: 20px;
+	 }
+	 .jon::before{
+		content: 'abcde 哈 efghi';
+		display: inline-block;
+		outline: 2px solid #000;
+	 }
    </style>
 </head>
 <body>
 	<div class="roll-box">
 		<div class="text">滚滚长江东逝水，浪花淘尽英雄，是非成败... ...</div>
+	</div>
+	<div class="jon">
+
 	</div>
 	
 	<script type="text/javascript" src="js/jquery.js"></script>
